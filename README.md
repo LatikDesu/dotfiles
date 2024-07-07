@@ -9,5 +9,9 @@ sudo apt-get install zsh eza direnv yadm
 sudo curl -sS https://starship.rs/install.sh | sh
 yadm clone https://github.com/LatikDesu/dotfiles.git
 ```
+```bash
+chsh -s $(which zsh)
+```
+
 ![image](https://github.com/LatikDesu/dotfiles/assets/122733866/fe2f284d-0b69-4b32-9f91-9481642b21df)
 
