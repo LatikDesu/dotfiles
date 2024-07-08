@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /Users/xcad/.gitignore_global
+	excludesfile = /Users/esoraine/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -7,10 +7,10 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-	name = Christian Lempa
-	email = christian.lempa@clcreative.de
+	name = Evgeny Abrosimov
+	email = evga.abrosimov@gmail.com
 [commit]
-	template = /Users/xcad/.stCommitMsg
+	template = /Users/esoraine/.stCommitMsg
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

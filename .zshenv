@@ -1,6 +1,6 @@
 # Added locations to path variable
 export PATH=$PATH:$HOME/.local/bin:$HOME/.cargo/bin
-export PATH=$PATH:$HOME/Projects/christianlempa/central-cli
+export PATH=$PATH:$HOME/Projects/central-cli
 
 # NVM directory
 export NVM_DIR="$HOME/.nvm"
