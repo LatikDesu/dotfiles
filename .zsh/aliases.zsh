@@ -25,7 +25,7 @@ alias dp600='sudo chown -R root:root $HOME/docker_data/secrets ; sudo chmod -R 6
 alias dp777='sudo chown -R $USER:$USER $HOME/docker_data/secrets ; sudo chmod -R 777 $HOME/docker_data/secrets ; sudo chown -R $USER:$USER $HOME/docker_data/.env ; sudo chmod -R 777 $HOME/docker_data/.env' # open permissions for editing
 
 # DOCKER COMPOSE
-alias dcrun='sudo docker-compose -f'
+alias dcrun='sudo docker compose -f'
 
 
 # NAVIGATION
