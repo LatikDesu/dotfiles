@@ -12,14 +12,17 @@ sudo apt install helix
 ```
 
 ```bash
-sudo apt-get install zsh eza direnv yadm neofetch
+sudo apt-get install zsh eza direnv yadm neofetch curl
 sudo curl -sS https://starship.rs/install.sh | sh
 yadm clone https://github.com/LatikDesu/dotfiles.git
 ```
 ```bash
 chsh -s $(which zsh)
 ```
-
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
 
 ![image](https://github.com/LatikDesu/dotfiles/assets/122733866/fe2f284d-0b69-4b32-9f91-9481642b21df)
 
