@@ -11,8 +11,21 @@ sudo apt update
 sudo apt install helix
 ```
 
+eza install
 ```bash
-sudo apt-get install zsh eza direnv yadm neofetch curl
+sudo apt update
+sudo apt install -y gpg
+
+sudo mkdir -p /etc/apt/keyrings
+wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg
+echo "deb [signed-by=/etc/apt/keyrings/gierens.gpg] http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list
+sudo chmod 644 /etc/apt/keyrings/gierens.gpg /etc/apt/sources.list.d/gierens.list
+sudo apt update
+sudo apt install -y eza
+````
+
+```bash
+sudo apt-get install zsh direnv yadm neofetch curl
 sudo curl -sS https://starship.rs/install.sh | sh
 yadm clone https://github.com/LatikDesu/dotfiles.git
 ```
