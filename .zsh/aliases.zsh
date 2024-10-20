@@ -7,7 +7,6 @@ alias tf="terraform"
 alias a="ansible"
 alias ap="ansible-playbook"
 
-alias code="open -a 'Visual Studio Code'"
 
 alias ls="eza --icons --group-directories-first"
 alias ll="eza --icons --group-directories-first -l"
@@ -21,12 +20,8 @@ alias dexec='sudo docker exec -ti' # usage: dexec container_name (to access cont
 alias dps='sudo docker ps -a' # running docker processes
 alias dpss='sudo docker ps -a --format "table {{.Names}}\t{{.State}}\t{{.Status}}\t{{.Image}}" | (sed -u 1q; sort)' # running docker processes as nicer table
 
-alias dp600='sudo chown -R root:root $HOME/docker_data/secrets ; sudo chmod -R 600 $HOME/docker_data/secrets ; sudo chown -R root:root $HOME/docker_data/.env ; sudo chmod -R 600 $HOME/docker_data/.env' # re-lock permissions
-alias dp777='sudo chown -R $USER:$USER $HOME/docker_data/secrets ; sudo chmod -R 777 $HOME/docker_data/secrets ; sudo chown -R $USER:$USER $HOME/docker_data/.env ; sudo chmod -R 777 $HOME/docker_data/.env' # open permissions for editing
-
 # DOCKER COMPOSE
 alias dcrun='sudo docker compose -f'
-
 
 # NAVIGATION
 alias cd..='cd ..'
