@@ -5,13 +5,15 @@ export PATH=$PATH:$HOME/Projects/central-cli
 # NVM directory
 export NVM_DIR="$HOME/.nvm"
 
-# Vagrant config needed inside WSL2
-export VAGRANT_DEFAULT_PROVIDER="hyperv"
-export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
-export EDITOR=vim
-export KUBE_EDITOR=vim
+# golang
+export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 
-export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export EDITOR=nvim
+export KUBE_EDITOR=nvim
+
 
 
