@@ -1,0 +1,52 @@
+[user]
+    name = Evgeny Abrosimov
+    email = evga.abrosimov@gmail.com
+
+[color]
+    ui = true
+
+[core]
+    editor = nvim
+
+[init]
+    defaultBranch = main
+
+[push]
+    autoSetupRemote = true
+    default = current
+    followTags = true
+
+[pull]
+    default = current
+    rebase = true
+
+[rebase]
+    autoStash = true
+    missingCommitsCheck = warm
+
+[log]
+    abbrevCommit = true
+    graphColors = blue, yellow,cyan,magenta,green,red
+
+[color.decorate]
+    HEAD = red
+    branch = blue
+    tag = yellow
+    remoteBranch = magenta
+
+[color "branch"]
+    current = magenta
+    local = default
+    remote = yellow
+    upstream = green
+    plain = blue
+
+[branch]
+    sort = -committerdate
+
+[tag]
+    sort = -taggerdate
+
+[pager]
+    branch = false
+    tag = false
