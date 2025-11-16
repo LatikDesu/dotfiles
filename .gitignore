@@ -1,0 +1,3 @@
+# tmux plugins - exclude all except tpm
+tmux/.tmux/plugins/*
+!tmux/.tmux/plugins/tpm/
