@@ -45,6 +45,13 @@ return {
                 'yamllint', -- YAML linting
                 'jsonlint', -- JSON linting
             },
+            ui = {
+                icons = {
+                    package_installed = '✓',
+                    package_pending = '➜',
+                    package_uninstalled = '✗',
+                },
+            },
         },
         config = function(_, opts)
             -- PATH is handled by core.mason-path for consistency

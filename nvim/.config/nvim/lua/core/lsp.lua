@@ -17,6 +17,7 @@ local servers = {
     'dockerls', -- Dockerfile language server
     'docker_compose_langserver', -- Docker Compose language server
     'templ', -- Templ language server
+    'htmlx', -- HTMX language server
 }
 
 -- ============================================================================
