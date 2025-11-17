@@ -9,7 +9,6 @@ require 'config.snippets' -- Load custom code snippets
 require 'config.autocmds' -- Autocommands
 require 'config.mason-verify' -- Mason verification
 require 'config.health-check' -- Health check
-
 -- ============================================================================
 -- Set up the Lazy plugin manager
 -- ============================================================================

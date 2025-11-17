@@ -1,6 +1,6 @@
 return {
-    cmd = { "lua-language-server" },
-    filetypes = { "lua" },
+    cmd = { 'lua-language-server' },
+    filetypes = { 'lua' },
     root_markers = {
         '.luarc.json',
         '.luarc.jsonc',
@@ -14,19 +14,19 @@ return {
     settings = {
         Lua = {
             diagnostics = {
-                disable = { "missing-fields" },
+                disable = { 'missing-fields' },
                 globals = {
-                    "vim",
-                    "Snacks",
+                    'vim',
+                    'Snacks',
                 },
             },
             hint = {
                 enable = true,
                 setType = false,
                 paramType = true,
-                paramName = "Disable",
-                semicolon = "Disable",
-                arrayIndex = "Disable",
+                paramName = 'Disable',
+                semicolon = 'Disable',
+                arrayIndex = 'Disable',
             },
         },
     },

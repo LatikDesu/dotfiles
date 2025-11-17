@@ -59,7 +59,9 @@ local function setup_keymaps(bufnr)
     map('n', 'gD', vim.lsp.buf.declaration, 'Go to declaration')
     map('n', 'gi', vim.lsp.buf.implementation, 'Go to implementation')
     map('n', 'gr', vim.lsp.buf.references, 'Go to references')
+    map('n', 'gn', vim.lsp.buf.rename, 'Rename symbol')
     map('n', 'gt', vim.lsp.buf.type_definition, 'Go to type definition')
+    map({ 'n', 'v' }, 'ga', vim.lsp.buf.code_action, 'Code action')
 
     -- Information
     map('n', 'K', vim.lsp.buf.hover, 'Hover documentation')
@@ -77,7 +79,7 @@ local function setup_keymaps(bufnr)
     map('n', '[d', vim.diagnostic.goto_prev, 'Previous diagnostic')
     map('n', ']d', vim.diagnostic.goto_next, 'Next diagnostic')
     map('n', '<leader>cd', vim.diagnostic.open_float, 'Show diagnostic')
-    map('n', '<leader>cl', vim.diagnostic.setloclist, 'Diagnostics to loclist')
+    map('n', '<leader>cl', '<cmd>Trouble loclist toggle<cr>', 'Diagnostics to loclist')
 
     -- Workspace
     map('n', '<leader>wa', vim.lsp.buf.add_workspace_folder, 'Add workspace folder')
