@@ -46,7 +46,7 @@ require('lazy').setup {
     require 'plugins.debuging', -- Debuging
     require 'plugins.lint', -- Linting
     require 'plugins.gitsigns', -- Git Signs
-    require 'plugins.ai', -- AI
+    -- require 'plugins.ai', -- AI
     require 'plugins.misc', -- Misc
     require 'plugins.which-key', -- Keybind hints
 

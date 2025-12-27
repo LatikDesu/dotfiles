@@ -1,3 +1,16 @@
 # tmux plugins - exclude all except tpm
 tmux/.tmux/plugins/*
 !tmux/.tmux/plugins/tpm/
+
+# Secrets & Local overrides
+fish/.config/fish/conf.d/secrets.fish
+
+# Fish generated state (contains absolute paths)
+fish/.config/fish/fish_variables
+
+# System & Editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
