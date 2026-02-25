@@ -1,5 +1,5 @@
-# NVM directory
-export NVM_DIR="$HOME/.nvm"
+# fnm
+export PATH="$HOME/.local/share/fnm:$PATH"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
@@ -15,5 +15,4 @@ export PATH=$HOME/.local/bin:$PATH
 # Editor
 export EDITOR=nvim
 export KUBE_EDITOR=nvim
-
 
