@@ -20,3 +20,11 @@ setopt BANG_HIST
 setopt EXTENDED_HISTORY
 setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
+# Added by Antigravity
+export PATH="/Users/esoraine/.antigravity/antigravity/bin:$PATH"

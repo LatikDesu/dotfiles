@@ -16,3 +16,4 @@ export PATH=$HOME/.local/bin:$PATH
 export EDITOR=nvim
 export KUBE_EDITOR=nvim
 
+. "$HOME/.cargo/env"
