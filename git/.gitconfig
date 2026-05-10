@@ -46,3 +46,6 @@
 
 [tag]
     sort = -taggerdate
+
+[include]
+    path = ~/dotfiles/git/.gitconfig.local

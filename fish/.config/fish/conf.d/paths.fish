@@ -18,6 +18,9 @@ fish_add_path "/home/esoraine/Apps/nvim-linux-x86_64/bin"
 fish_add_path "$HOME/.opencode/bin"
 fish_add_path "$HOME/.local/bin"
 
+# Flutter / Dart
+fish_add_path "$HOME/develop/flutter/bin"
+
 # Rust
 fish_add_path "$HOME/.cargo/bin"
 

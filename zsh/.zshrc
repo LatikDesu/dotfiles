@@ -2,6 +2,7 @@
 [[ -f ~/.zsh/functions.zsh ]] && source ~/.zsh/functions.zsh
 [[ -f ~/.zsh/starship.zsh ]] && source ~/.zsh/starship.zsh
 [[ -f ~/.zsh/nvm.zsh ]] && source ~/.zsh/nvm.zsh
+[[ -f ~/.zsh/secrets.zsh ]] && source ~/.zsh/secrets.zsh
 
 # Load Starship
 eval "$(starship init zsh)"
@@ -28,3 +29,5 @@ eval "$(pyenv init - zsh)"
 
 # Added by Antigravity
 export PATH="/Users/esoraine/.antigravity/antigravity/bin:$PATH"
+alias neohtop='WEBKIT_DISABLE_COMPOSITING_MODE=1 neohtop'
+export PATH="$HOME/.govm/shim:$PATH"

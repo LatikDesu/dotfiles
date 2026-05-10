@@ -18,3 +18,10 @@ if status is-interactive
 
     starship init fish | source
 end
+# opencode
+fish_add_path /home/esoraine/.opencode/bin
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+alias neohtop='env WEBKIT_DISABLE_COMPOSITING_MODE=1 neohtop'
